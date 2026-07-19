@@ -1,0 +1,6 @@
+{
+  "name": "Komnot Links",
+  "description": "The official link directory and hub for Komnot Cambodia, containing links to the app, Telegram, Facebook, and Email.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
