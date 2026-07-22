@@ -14,6 +14,7 @@ import {
   ExternalLink,
   Moon,
   Sun,
+  Globe,
 } from "lucide-react";
 
 interface LinkItem {
@@ -62,6 +63,15 @@ export default function App() {
   };
 
   const links: LinkItem[] = [
+    {
+      id: "website",
+      title: "Official Website",
+      description: "www.komnot.website • Explore features & learn more",
+      url: "https://www.komnot.website/",
+      icon: <Globe className="w-5 h-5 text-white" />,
+      brandColor:
+        "bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-600 hover:from-emerald-600 hover:via-teal-600 hover:to-cyan-700",
+    },
     {
       id: "telegram",
       title: "Join Our Telegram Channel",
