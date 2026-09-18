@@ -5,6 +5,7 @@
 
 import React, { useState } from "react";
 import logo from "../assets/full_logo.png";
+import komnotDetectLogo from "../assets/Untitled design (3).png";
 import {
   Send,
   Mail,
@@ -80,6 +81,22 @@ export default function App() {
       icon: <Send className="w-5 h-5 text-white" />,
       brandColor:
         "bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700",
+    },
+    {
+      id: "komnot-detect",
+      title: "Komnot Detect",
+      description: "@komnot_dec_bot • Detect scams and suspicious activity",
+      url: "https://t.me/komnot_dec_bot",
+      icon: (
+        <img
+          src={komnotDetectLogo}
+          alt=""
+          className="h-8 w-8 rounded-lg object-cover"
+          aria-hidden="true"
+        />
+      ),
+      brandColor:
+        "bg-[#0b1b33] ring-1 ring-slate-700 hover:ring-emerald-400",
     },
     {
       id: "facebook",
