@@ -116,7 +116,7 @@ export default function App() {
       id: "facebook",
       title: "Follow Komnot Cambodia",
       description: "Latest news, fraud alerts & interactive media",
-      url: "https://www.facebook.com/komnotcambodia",
+      url: "https://www.facebook.com/p/%E1%9E%80%E1%9F%86%E1%9E%8E%E1%9E%8F%E1%9F%8B-Komnot-61582300450374/",
       icon: <Facebook className="w-5 h-5 text-white" />,
       brandColor:
         "bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800",
