@@ -8,7 +8,7 @@ import { ArrowRight, RefreshCw, ShieldCheck } from "lucide-react";
 import shield from "../assets/komnot-shield.png";
 
 // komnot.online moved: every visit is sent to the new links page.
-const NEW_HOME = "https://plateform.komnot.org/";
+const NEW_HOME = "https://platform.komnot.org/";
 const COUNTDOWN_SECONDS = 8;
 
 const khmerDigits = (n: number) => String(n).replace(/\d/g, (d) => "០១២៣៤៥៦៧៨៩"[Number(d)]);
@@ -88,10 +88,10 @@ export default function App() {
 
           <div className="mx-auto mt-5 space-y-2 text-sm text-slate-400">
             <p lang="km" className="font-khmer leading-7">
-              តំណផ្លូវការរបស់យើងឥឡូវនេះនៅ <span className="font-semibold text-sky-300">plateform.komnot.org</span>
+              តំណផ្លូវការរបស់យើងឥឡូវនេះនៅ <span className="font-semibold text-sky-300">platform.komnot.org</span>
             </p>
             <p>
-              Our official links now live at <span className="font-semibold text-sky-300">plateform.komnot.org</span>
+              Our official links now live at <span className="font-semibold text-sky-300">platform.komnot.org</span>
             </p>
           </div>
 
