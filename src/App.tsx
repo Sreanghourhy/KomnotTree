@@ -9,7 +9,7 @@ import shield from "../assets/komnot-shield.png";
 
 // komnot.online moved: every visit is sent to the new links page.
 const NEW_HOME = "https://plateform.komnot.org/";
-const COUNTDOWN_SECONDS = 3;
+const COUNTDOWN_SECONDS = 8;
 
 const khmerDigits = (n: number) => String(n).replace(/\d/g, (d) => "០១២៣៤៥៦៧៨៩"[Number(d)]);
 
