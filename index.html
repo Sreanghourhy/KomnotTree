@@ -1,14 +1,24 @@
 <!doctype html>
-<html lang="en">
+<html lang="km">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="/assets/full_logo.png" />
-    <title>Komnot</title>
+    <title>Komnot has moved · Komnot បានផ្លាស់គេហទំព័រថ្មី</title>
+    <meta name="description" content="Komnot's official links now live at plateform.komnot.org." />
+    <!-- Tells search engines the page now lives on the new domain. -->
+    <link rel="canonical" href="https://plateform.komnot.org/" />
+    <meta name="theme-color" content="#070b16" />
+    <link rel="icon" type="image/png" href="/assets/favicon.png" />
+    <!-- Fallback for browsers without JavaScript; the app redirects sooner. -->
+    <meta http-equiv="refresh" content="5; url=https://plateform.komnot.org/" />
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <p style="font-family: sans-serif; text-align: center; margin-top: 40vh">
+        Komnot has moved to <a href="https://plateform.komnot.org/">plateform.komnot.org</a>
+      </p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
